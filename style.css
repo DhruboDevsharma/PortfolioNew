@@ -76,7 +76,7 @@ nav.scrolled { border-color: var(--border); }
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  font-size: 11px;
+  font-size: 22px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--text-secondary);
@@ -129,10 +129,10 @@ nav.scrolled { border-color: var(--border); }
 /* PHOTO */
 .photo-wrap { position: relative; }
 .photo-frame {
-  width: 100%;
+  width: 75%;
   aspect-ratio: 3/5;
   background: var(--bg-muted);
-  border-radius: 20px;
+  border-radius: 30px;
   border: 0.5px solid var(--border);
   overflow: hidden;
   display: flex;
@@ -150,7 +150,7 @@ nav.scrolled { border-color: var(--border); }
 }
 .photo-icon { opacity: 0.25; }
 .photo-hint {
-  font-size: 11px;
+  font-size: 22px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--text-tertiary);
@@ -165,7 +165,7 @@ nav.scrolled { border-color: var(--border); }
   display: flex;
   align-items: center;
   gap: 7px;
-  font-size: 11px;
+  font-size: 22px;
   color: var(--text-secondary);
   letter-spacing: 0.04em;
 }
