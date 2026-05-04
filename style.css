@@ -65,7 +65,7 @@ nav.scrolled { border-color: var(--border); }
 /* HERO */
 .hero {
   display: grid;
-  grid-template-columns: 1fr 380px;
+  grid-template-columns: 380px 1fr;
   gap: 4rem;
   align-items: center;
   padding: 5rem 0;
@@ -130,7 +130,7 @@ nav.scrolled { border-color: var(--border); }
 .photo-wrap { position: relative; }
 .photo-frame {
   width: 100%;
-  aspect-ratio: 4/5;
+  aspect-ratio: 3/5;
   background: var(--bg-muted);
   border-radius: 20px;
   border: 0.5px solid var(--border);
@@ -143,7 +143,8 @@ nav.scrolled { border-color: var(--border); }
   position: relative;
 }
 .photo-frame img {
-  width: 100%; height: 100%;
+  width: 100%; 
+  height: 100%;
   object-fit: cover;
   display: none;
 }
@@ -189,7 +190,7 @@ nav.scrolled { border-color: var(--border); }
 /* ABOUT */
 #about {
   display: grid;
-  grid-template-columns: 1.3fr 1fr;
+  grid-template-columns: 1fr 1.3fr;
   gap: 3.5rem;
   margin-bottom: 5rem;
   opacity: 0;
