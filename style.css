@@ -384,3 +384,70 @@ footer {
   #contact { flex-direction: column; gap: 1.5rem; text-align: center; }
   .hero h1 { font-size: 38px; }
 }
+
+/* Modern Experience Section */
+#experience {
+  background: #ffffff;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#experience h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+#experience h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #00bfa5;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+.experience-container {
+  max-width: 900px;
+  margin: auto;
+  display: grid;
+  gap: 25px;
+}
+
+.experience-item {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.experience-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+.experience-item h3 {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #00bfa5;
+  font-weight: 600;
+}
+
+.experience-item h4 {
+  margin: 5px 0 10px;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.experience-item p {
+  margin: 6px 0;
+  color: #666;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
